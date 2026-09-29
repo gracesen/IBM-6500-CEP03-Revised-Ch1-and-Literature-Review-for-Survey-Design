@@ -1,0 +1,193 @@
+---
+title: "CEP 03 Revised Chapter 1 and Literature Review for Survey Design"
+subtitle: "Building a Data-Driven Digital Growth System for Avenue Shabu"
+author: "Group 7: Frank Renn, Sora Hosoda, Yujin Jeong, Qian Zhu, Grace Sen"
+date: today
+date-format: "MMMM D, YYYY"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-expand: true
+    number-sections: true
+    embed-resources: true
+    code-fold: true
+    code-tools: true
+    theme: cosmo
+editor: visual
+execute:
+  freeze: auto
+---
+
+# CHAPTER 1: INTRODUCTION {#sec-ch1-introduction}
+
+## Background and Business Problem(s)
+
+Avenue Shabu is an independently operated Asian restaurant in Southern California that uses social media, influencer partnerships, promotions, and paid advertising to attract customers. However, management lacks reliable evidence connecting these marketing activities to customer visits, revenue, and profitability. In particular, management is uncertain whether social media engagement and influencer reach translate into actual customers, and remains skeptical of paid advertising because campaign results are not consistently attributed to sales outcomes.
+
+This project will conduct customer research and audit Avenue Shabu’s digital marketing activities, including social media, local search, online reputation, promotions, customer loyalty and CRM, paid advertising, competitor digital activity, and generative search visibility. The team will directly execute selected initiatives in these areas, analyze POS data, and establish measurement and attribution systems to connect marketing efforts with customer visits, revenue, and profitability.
+
+## Project Objectives (PO's)
+
+The primary project objective is to **increase Avenue Shabu’s year-over-year sales** and generate profit by directly evaluating, recommending, implementing, and measuring marketing initiatives. Including but not limited to:
+
+- **PO1:** Increase customer loyalty
+
+- **PO2:** Increase effective organic/paid advertising
+
+- **PO3:** Increase Avenue Shabu’s brand awareness and customer visits by developing a more effective social media strategy based on the performance of its platforms, content, and influencer collaborations.
+
+- **PO4:** Improve Avenue Shabu’s online reputation and customer experience by addressing recurring concerns about food quality, service, and cleanliness.
+
+- **PO5:** Improve Avenue Shabu’s promotional and marketing decisions by evaluating which campaigns generate sales growth and sustainable operating returns.
+
+## Analytics Objectives
+
+### AO1. Growth in Repeat Guests With 2+ Visits (Frank Renn)
+
+Measure the year-over-year growth in the number of identifiable repeat guests —defined as guests with two or more visits—using Toast/POS or loyalty/CRM records.
+
+### AO2. Measure Ads Conversion and Incremental Revenue (Jenny Jeong)
+
+Evaluate whether Ads generates additional customer conversions and store revenue. Using GA4/GTM campaign tracking and Toast POS transaction data, the analysis will compare ad and non-ad periods through A/B testing to measure conversion rates and estimate incremental revenue.
+
+### AO3. Increase Avenue Shabu’s Restaurant Visibility on Instagram (Sandy Zhu)
+
+To analyze existing Instagram content and influencer performance, test original video ideas through small-scale campaigns, and develop an evidence-based Instagram strategy for Avenue Shabu.
+
+### AO4. Quantify Review Themes and Response Coverage Across Google and Yelp (Sora Hosoda)
+
+Analyze all available Google and Yelp review records for Avenue Shabu as of the data-extraction date. The analysis will measure star-rating distributions, review volume, and the frequency of positive and negative comments related to food quality, broth flavor, ingredient freshness, service, cleanliness, wait times, and value. Reviews will be manually coded by theme, and descriptive statistics will be used to compare the results across the two platforms. The analysis will also measure the proportion of reviews receiving a public response and, if available, the time taken to respond.
+
+### AO5. Compare Promotion Periods to Measure Incremental Revenue and Contribution Margin (Grace Sen)
+
+Evaluate whether Avenue Shabu’s promotions and marketing campaigns support its goal of increasing monthly sales while maintaining profitability. Using Toast sales, food and labor costs, P&L data, marketing expenses, promotion records, and influencer marketing history, the analysis will compare promotion and non-promotion periods across different seasons. Since Avenue does not currently have a customer-tracking system, the analysis will focus on aggregate daily and weekly performance to guide future campaign and budget decisions.
+
+## Significance of the Topic
+
+Independent restaurants often need to increase sales while managing high food, labor, rent, and marketing costs. This is especially important for Avenue because the restaurant wants to maintain affordable pricing, currently faces high operating costs, experiences seasonal changes in profitability, and aims to increase sales by approximately 10% over the next year.
+
+This project will connect Avenue’s digital visibility, advertising, social media, customer reviews, promotions, sales, and operating costs to support more informed marketing decisions. The findings can help Avenue identify which activities generate meaningful business results and provide a practical framework for other independent restaurants with similar budget and data limitations.
+
+# Chapter 2 Literature Review for Survey Design
+
+::: callout-important
+## Note
+
+Professor Ortiz explained in IBM 6200 that we may use our Progress Report 1 work for this stage of Chapter 2 because her class is currently focused on developing the literature review. Therefore, this section presents the literature research and preliminary findings that our group has completed so far. The content will continue to be revised and developed as we review more sources and move forward with the project.
+:::
+
+## Group Progress Report 1 Summary
+
+| Group Member | Assigned Area | Preliminary Method | Current Decision or Direction |
+|:-----------------|:-----------------|:-----------------|:-----------------|
+| Frank Renn | Generative search visibility and AI-referred traffic | Standardized prompt testing across AI platforms, source and competitor coding, factual-accuracy checks, repeated runs, GA4 referrals, and Search Console metrics | Combine AI-platform audits with website, Google Business Profile, review-platform, GA4, and Search Console evidence; report descriptive results rather than causal claims. |
+| Jenny Jeong | Paid advertising and online-to-offline attribution | Time-series causal impact, interrupted time-series analysis, historical POS baseline, and channel-specific QR codes, promotional codes, landing pages, or reservation links | Modify and combine modeled incremental impact with direct POS attribution; use contribution margin rather than engagement or platform ROAS alone. |
+| Sandy Zhu | Social media content and influencer strategy | Compare content format, platform, influencer size, niche, local relevance, audience fit, and engagement; add redemption or revenue data when available | Evaluate content and influencer fit using multiple variables instead of selecting partners based only on follower count. |
+| Sora Hosoda | Google and Yelp reputation analysis | Descriptive statistics, cross-platform comparison, manual topic coding, sentiment analysis when feasible, and management-response tracking | Retain rating and review-text analysis while documenting selection bias, collection date, sample size, and platform limitations. |
+| Grace Sen | Promotion profitability | Compare promotion periods with matched non-promotion periods; estimate incremental revenue and contribution margin; examine post-promotion performance | Combine profitability analysis with checks for cannibalization, shifted visits, seasonality, discount costs, food costs, and media spending. |
+
+: Summary of individual Progress Report 1 submissions
+
+Across the five reports, a common theme is the need to combine multiple forms of evidence. Public digital data can show visibility, engagement, and customer perceptions, while POS, cost, campaign, reservation, and redemption data are needed to evaluate business outcomes. The literature also supports using cautious language because observational data do not automatically establish causality.
+
+::: callout-important
+## Note
+
+These progress reports were completed before the group revised Chapter 1. Therefore, some of the project objectives and analytics objectives discussed in the reports reflect an earlier version of the project. The literature and preliminary approaches are included to show our work at that stage and will be updated to align with the revised objectives as the project develops.
+:::
+
+## Literature Review Source Tables
+
+The tables below consolidate the sources identified in the five individual Progress Report 1 submissions. They are grouped by analytics objective to make the evidence easier to review.
+
+::: panel-tabset
+### AO1 Generative Search Visibility
+
+| Source | Evidence Type | Main Contribution to the Project |
+|:-----------------------|:-----------------------|:-----------------------|
+| Aggarwal et al. (2023), *GEO: Generative Engine Optimization* | Supporting | Supports using controlled prompts, brand mentions, recommendation position, and source placement to evaluate visibility in generative search. |
+| Zhang and Yao (2026), *From Citation Selection to Citation Absorption* | Supporting | Distinguishes whether a source is merely cited from whether it meaningfully influences an AI-generated answer. |
+| Fang (2022), *The Effects of Online Review Platforms on Restaurant Revenue, Consumer Learning, and Welfare* | Supporting | Shows that restaurant reviews and review-platform activity can affect discovery and performance, supporting the audit of review sources used by AI systems. |
+| Anderson and Magruder (2012), *Learning from the Crowd* | Supporting | Shows that online ratings can influence restaurant demand and supports including reputation signals in the visibility audit. |
+| Google Business Profile Help (n.d.), *Tips to Improve Your Local Ranking on Google* | Supporting | Identifies relevance, distance, prominence, reviews, and complete business information as important local-search signals. |
+| Zhang et al. (2025), *Siren's Song in the AI Ocean* | Challenging | Shows that LLMs may generate incorrect information, supporting a factual-accuracy check for every AI response. |
+| Atil et al. (2025), *Non-Determinism of Deterministic LLM Settings* | Challenging | Demonstrates that AI outputs can vary across repeated runs, supporting repeated tests and reporting results as rates or ranges. |
+| Jazwinska and Chandrasekar (2025), *AI Search Has a Citation Problem* | Challenging | Shows that AI tools may misidentify, fabricate, or incorrectly attribute sources, so citation presence alone is not enough. |
+| Google Search Console Help (n.d.), *Performance Report* | Alternative measure | Provides clicks, impressions, click-through rate, queries, and average position for traditional Google Search, but not complete AI visibility. |
+| Google Analytics Help (n.d.), *Campaigns and Traffic Sources* | Alternative measure | Supports identifying measurable AI-referred sessions and engagement when referral information is available. |
+
+### AO2 Paid Advertising Attribution
+
+| Source | Evidence Type | Main Contribution to the Project |
+|:-----------------------|:-----------------------|:-----------------------|
+| Signature Marketing London (2025), *Driving Revenue Growth Through Meta Ads* | Supporting case study | Supports testing geographically targeted Meta advertising tied to reservation or POS tracking. |
+| Dineline (2024), *The Meta Ads Strategy Every Restaurant Needs to See* | Supporting case study | Suggests that video creative and off-peak offers may generate reservations and revenue when first-party tracking is available. |
+| Mahajan (2026), *Haidilao Business Model* | Supporting case study | Shows how social offers and influencer seeding can create attention, while reinforcing the need for trackable promotional codes. |
+| Mafost Marketing (2025), *How Pro Social Media Strategy for Restaurants Drives Real ROI* | Supporting case study | Supports combining social video advertising with local search and reservation measurement. |
+| SideChef and HubSpot (2023), *Paid Advertising for Food Brands* | Supporting industry source | Supports full-funnel tracking instead of evaluating advertising only through impressions or clicks. |
+| Blake, Nosko, and Tadelis (2015), *Consumer Heterogeneity and Paid Search Effectiveness* | Challenging | Shows that paid search may cannibalize organic demand, so platform-attributed sales may not be fully incremental. |
+| Lewis and Reiley (2014), *Online Ads and Offline Sales* | Supporting causal evidence | Demonstrates that online advertising can affect offline purchases and supports measuring store-level outcomes. |
+| Gordon et al. (2019), *A Comparison of Approaches to Advertising Measurement* | Challenging | Shows that observational attribution can differ substantially from experimental estimates. |
+| Lewis, Rao, and Reiley (2011), *Here, There, and Everywhere* | Challenging | Explains how correlated online behavior can cause observational methods to overestimate advertising effects. |
+| Kannan and Li (2017), *Digital Marketing: A Framework, Review and Research Agenda* | Framework | Supports combining customer-journey information, multiple channels, POS outcomes, and explicit attribution assumptions. |
+
+### AO3 Social Media and Influencers
+
+| Source | Evidence Type | Main Contribution to the Project |
+|:-----------------------|:-----------------------|:-----------------------|
+| Haenlein et al. (2020), *Navigating the New Era of Influencer Marketing* | Supporting | Shows that influencer selection should consider platform, authenticity, relevance, audience, and campaign objectives rather than follower count alone. |
+| Gross and von Wangenheim (2022), *Influencer Marketing on Instagram* | Supporting | Shows that engagement varies with sponsorship, influencer size, and content characteristics. |
+| Cheung et al. (2022), *I Follow What You Post* | Supporting | Connects influencer content characteristics with consumers' online brand-related activities. |
+| Breves et al. (2019), *The Perceived Fit Between Instagram Influencers and the Endorsed Brand* | Supporting | Shows that influencer-brand fit affects credibility and persuasive effectiveness. |
+| Belanche et al. (2021), *Building Influencers' Credibility on Instagram* | Supporting | Explains how influencer credibility affects follower attitudes and behavioral responses. |
+| van Reijmersdal, Domingues Aguiar, and van Noort (2024), *How Is Influencer Follower Size Related to Brand Responses?* | Mixed evidence | Shows that follower size does not have one simple effect and should be interpreted with other influencer characteristics. |
+| Janssen, Schouten, and Croes (2022), *Influencer Advertising on Instagram* | Challenging | Shows that larger influencers can perform well when product-influencer fit, credibility, and identification are strong. |
+| Tafesse and Wood (2021), *Followers' Engagement with Instagram Influencers* | Challenging | Shows that follower count alone does not guarantee engagement and highlights the role of content and engagement strategy. |
+| Lee and Kim (2020), *Influencer Marketing on Instagram* | Challenging | Examines how disclosure and influencer and brand credibility affect promotional-post effectiveness. |
+| Pan et al. (2025), *Influencer Marketing Effectiveness* | Synthesis | Provides meta-analytic evidence that influencer outcomes vary according to multiple campaign, influencer, and audience factors. |
+
+Two additional citations, Hsiao and Lin (2025) and Milosevic et al. (2022), appeared in Sandy's evidence matrix, but complete reference information was not included in the submitted reference list. Their full citations should be verified before the final manuscript is submitted.
+
+### AO4 Online Reputation
+
+| Source | Evidence Type | Main Contribution to the Project |
+|:-----------------------|:-----------------------|:-----------------------|
+| Abdullah et al. (2024), *Review Ratings, Sentiment in Review Comments, and Restaurant Profitability* | Supporting | Shows that written-review sentiment can provide information beyond average star ratings. |
+| Alikhani et al. (2025), *Review Content and Customer Satisfaction* | Supporting | Identifies service and atmosphere as important review themes and supports separating food, service, and atmosphere in coding. |
+| Luca (2016), *Reviews, Reputation, and Revenue* | Supporting | Connects Yelp ratings with restaurant revenue and supports monitoring rating patterns. |
+| Anderson and Magruder (2012), *Learning from the Crowd* | Supporting | Shows that small rating differences near important thresholds can affect restaurant demand. |
+| Sparks and Browning (2011), *The Impact of Online Reviews on Hotel Booking Intentions and Perception of Trust* | Supporting | Shows that review valence and presentation can influence trust and purchase consideration. |
+| Mudambi and Schuff (2010), *What Makes a Helpful Online Review?* | Challenging | Shows that review length, extremity, and content affect helpfulness, so reviews should not all receive equal weight. |
+| Luca and Zervas (2016), *Fake It Till You Make It* | Challenging | Shows that some online reviews may be manipulated and may not represent genuine customer experiences. |
+| Chevalier and Mayzlin (2006), *The Effect of Word of Mouth on Sales* | Alternative context | Supports a relationship between reviews and sales, but the book-market context may not transfer directly to a restaurant. |
+| Babic Rosario et al. (2016), *The Effect of Electronic Word of Mouth on Sales* | Synthesis | Shows that electronic word-of-mouth effects differ across platforms, products, and performance measures. |
+| American Customer Satisfaction Index (2024), *Restaurant and Food Delivery Study* | Industry benchmark | Identifies food quality, service, cleanliness, order accuracy, and value as useful customer-experience categories. |
+
+### AO5 Promotion Profitability
+
+| Source | Evidence Type | Main Contribution to the Project |
+|:-----------------------|:-----------------------|:-----------------------|
+| Angelovska (2022), *Evaluating Restaurants' Profitability of a Daily Deal Promotion* | Supporting | Supports evaluating promotion revenue, discount expense, food cost, additional purchases, and return on investment. |
+| Chen (2019), *Profitability Determinants in Online Deal Promotions* | Supporting | Shows that upselling, voucher value, employee factors, and discount depth can affect promotion profitability. |
+| Kimes and Dholakia (2011), *Restaurant Daily Deals* | Supporting | Shows that promotions may attract new customers but may also subsidize existing frequent customers. |
+| Norvell and Horky (2017), *A Framework and Model to Evaluate Promotions* | Supporting | Supports distinguishing incremental visits from replacement visits and measuring contribution margin. |
+| Sharma et al. (2025), *Promotional Framing and Firm Valuation in the Restaurant Industry* | Supporting | Suggests that promotion wording and framing can influence outcomes, although firm valuation differs from restaurant-level profitability. |
+| Gupta (1988), *Impact of Sales Promotions on When, What, and How Much to Buy* | Challenging | Shows that promotion-related sales may reflect switching, purchase acceleration, or stockpiling instead of entirely new demand. |
+| Nijs et al. (2001), *The Category-Demand Effects of Price Promotions* | Challenging | Finds strong short-term promotion effects but limited long-term impact, supporting post-promotion analysis. |
+| Anderson and Simester (2004), *Long-Run Effects of Promotion Depth* | Challenging | Shows that deeper discounts may affect new and established customers differently. |
+| van Heerde, Leeflang, and Wittink (2004), *Decomposing the Sales Promotion Bump* | Challenging | Separates category expansion from cross-period shifting and competitive switching. |
+| Bertrand, Duflo, and Mullainathan (2004), *How Much Should We Trust Differences-in-Differences Estimates?* | Methodological caution | Shows that serial correlation and weak comparison periods can create misleading results in difference-in-differences analysis. |
+:::
+
+## Implications for Survey Design and Data Collection
+
+The literature suggests that the survey should focus on customer information that cannot be obtained reliably from public platforms or aggregate POS data. Useful survey topics include visit frequency, prior awareness of Avenue Shabu, the source that influenced the visit, exposure to social media or influencer content, promotion use, whether the customer would have visited without the offer, satisfaction with food and service, perceived value, intention to return, and willingness to recommend the restaurant.
+
+The survey should be combined with non-survey data whenever possible. AI visibility testing, social media metrics, online reviews, GA4 and Search Console data, promotion records, POS sales, costs, reservations, and redemption records can provide behavioral and operational evidence. Using these sources together will allow the team to compare what customers report with what is observed in Avenue Shabu's marketing and sales data.
+
+# Appendix
+
+- [Group GitHub Repository](https://github.com/falasol/MSDM-CEP)
+- [GitHub Repository for this Report](https://github.com/gracesen/IBM-6500-CEP03-Revised-Ch1-and-Literature-Review-for-Survey-Design)
+- [Published GitHub Pages Report](https://gracesen.github.io/IBM-6500-CEP03-Revised-Ch1-and-Literature-Review-for-Survey-Design/)
